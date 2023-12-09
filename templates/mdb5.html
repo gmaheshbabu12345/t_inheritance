@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>{% load static %}
+<html lang="en">
+<head><link rel="stylesheet" href="{% static 'css/mdb.min.css' %}">
+<body>{% block body %}
+
+  <h1 class="btn btn-primary">parent class button1</h1>
+  <h1 class="btn btn-primary">parent class button2</h1>
+  <h1 class="btn btn-primary">parent class button3</h1>
+  <h1 class="btn btn-primary">parent class button4</h1>
+  {% endblock %}
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+    <script src="{% static 'js/mdb.es.min.js' %}"></script>
+    
+</html>
